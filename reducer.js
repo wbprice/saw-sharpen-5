@@ -42,7 +42,7 @@ function hasVowelOfCorrectType(vowel, word) {
 function updateList(list, word) {
     if (!list.length && hasOneVowelType(word) && hasVowelOfCorrectType(getVowelType(list[0]), word)) {
         return [
-            list,
+            ...list,
             word
         ];
     }
