@@ -1,0 +1,29 @@
+{
+  "name": "saw-sharpen-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbprice/saw-sharpen-5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbprice/saw-sharpen-5/issues"
+  },
+  "homepage": "https://github.com/wbprice/saw-sharpen-5#readme",
+  "dependencies": {
+    "immutability-helper": "^2.6.5",
+    "react": "^16.2.0",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1"
+  }
+}
